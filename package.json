@@ -1,0 +1,13 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "main": "calculator.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/tailwind.css  -o ./output/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Azharul Bappy",
+  "license": "ISC",
+  "description": "This is a simple JavaScript calculator project"
+}
