@@ -12,6 +12,9 @@ export function multiply(num1, num2) {
 export function divide(num1, num2) {
   return num1 / num2;
 }
+export function remainder(num1, num2) {
+  return num1 % num2;
+}
 export function logResult(num1, num2, operator, result) {
   console.log(`${num1} ${operator} ${num2} = ${result}`);
 }
@@ -41,6 +44,11 @@ export function calculate(num1, num2, operator) {
     case '/':
       // divide numbers
       result = divide(num1, num2);
+      return result;
+      break;
+    case '%':
+      // divide numbers
+      result = remainder(num1, num2);
       return result;
       break;
     default:
