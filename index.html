@@ -6,12 +6,12 @@
     <title>Calculator</title>
     <link rel="stylesheet" href="./output/style.css" type="text/css" media="all" />
   </head>
-  <body> 
-    <div class="">
-      <div class="">
-        <input type="text" name="display" id="display" class="text-4xl" placeholder="0" />
+  <body class="w-[100vw] h-[100vh] flex items-center justify-center  overflow-hidden "> 
+    <div class="h-[750px]  w-[420px] rounded-3xl">
+      <div class="w-[420px] h-[40%] text-center bg-[#8bb1a191] text-white">
+        <input type="text" name="display" id="display" class="text-6xl w-[100%] h-[100%] bg-transparent text-[#000] pe-[1rem] border-0 outline-0 text-right align-text-bottom" placeholder="0" />
       </div>
-      <div class="grid grid-cols-4 grid-rows-5 text-4xl gap-[1rem]">
+      <div class="grid grid-cols-4 grid-rows-5 text-4xl gap-[1rem] h-[60%] max-h-[60%] w-[420px] max-w-[420px] bg-[#162d2391] text-white">
         <button  value="AC" class="buttons"type="button">AC</button>
         <button  value="%" class="buttons"type="button">%</button>
         <button  value="←" class="buttons"type="button">←</button>
@@ -36,6 +36,6 @@
     </div>
     
     
-    <script type="module" value="" src="calculator.js"  charset="utf-8"></script>
+    <script type="module"  src="calculator.js"  charset="utf-8"></script>
   </body>
 </html>
